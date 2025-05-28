@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Party Ticket Booking</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 400px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: #fff;
+        }
+        input, button {
+            display: block;
+            width: 80%;
+            margin: 10px auto;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        button {
+            background-color: #28a745;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Party Ticket Booking</h1>
+        <form>
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="tickets">Number of Tickets:</label>
+            <input type="number" id="tickets" min="1" required>
+
+            <button type="submit">Book Now</button>
+        </form>
+    </div>
+</body>
+</html>
